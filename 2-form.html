@@ -5,8 +5,9 @@
     <link rel="shortcut icon" href="/goit-js-hw-09/favicon.svg" type="image/svg+xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <script type="module" crossorigin src="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-C1ZqTqyY.css">
+    <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-CCfJ9dLc.css">
   </head>
   <body>
     <header class="header">
@@ -26,7 +27,21 @@
         </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="container-form">
+        <form class="feedback-form" autocomplete="off">
+          <label>
+            Email
+            <input type="email" name="email" autofocus />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="8"></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
 
   </body>
 </html>
